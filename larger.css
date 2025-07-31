@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 /*"Outfit", sans-serif*/
 
-@media screen and (min-width:500px){
+@media screen and (min-width:501px){
 
     *{
         --cor1: #F3E5D8;
@@ -15,11 +15,15 @@
         --cor4: #74475C;
         --cor5: #7F4C37;
     }
-
-    body{
+    html{
         background-color: var(--cor1);
     }
-    div{
-        border-radius: 15px;
+    body{
+        border-radius: 10px;
+        position: relative;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        align-self: center;
     }
 }
+    
